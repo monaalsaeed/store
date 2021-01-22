@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Tangerine">
+<style>
+body
+{
+
+	background-color:#C0BCBA;
+}
+
+.add {
+
+ font-size: 30px;
+ color: white;
+ background-color: #560A02;
+ padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+}
+
+div[class="1"]
+{   font-family: 'Tangerine', serif;
+    font-size: 50px;
+	font-weight: 700;
+	padding-left: 20px;
+	color: #560A02;
+}
+
+
+input[type=text], textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #560A02;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+a
+ { 
+ 
+   text-decoration: none; 
+   color:#560A02;
+   
+   
+   }
+</style>
+</head>
+<body>
+
+  <div class="1">
+    <p > <a  href="file:///D:/ITI/Foundmental%20of%20Web/Project/2.home.html"> Fashion Secret</a></p>
+    </div>
+<p class="add" >Contact us</p>
+
+<div class="container">
+  <form action="/action_page.php">
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="yemail">your email</label>
+    <input type="text" id="yemail" name="your email" placeholder="Your email..">
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+  </form>
+</div>
+
+</body>
+</html>
